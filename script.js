@@ -27,7 +27,7 @@ function performCalculation(expression) {
   try {
     // Peringatan: Penggunaan 'new Function' bisa berisiko jika input tidak aman.
     // Untuk kalkulator sederhana ini, ini adalah pendekatan umum.
-    // Solusi yang lebih aman akan melibatkan parser ekspresi matematika.
+    // Solusi yang lebih aman akan melibatkan parser ekspresi matematikas.
     const result = new Function("return " + expression)();
     if (isNaN(result) || !isFinite(result)) {
       return "Error"; // Tangani pembagian dengan nol atau hasil non-numerik
