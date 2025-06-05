@@ -21,7 +21,7 @@ jobs:
       - name: 🔧 Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # atau versi LTS terbarus
+          node-version: '18' # atau versi LTS terbaru
 
       # Langkah Build (jika ada, misal: npm install, npm run build)
       # Untuk kalkulator statis ini, tidak ada build JS/CSS khusus
