@@ -26,7 +26,7 @@ jobs:
       # Langkah Build (jika ada, misal: npm install, npm run build)
       # Untuk kalkulator statis ini, tidak ada build JS/CSS khusus
       # - name: 🔨 Build Aplikasi (jika perlu)
-      #   run: echo "Tidak ada langkah build spesifik."
+      #   run: echo "Tidak ada langkah build spesifik."ss
 
       - name: 🧪 Jalankan Tes Unit (Continuous Testing)
         run: |
